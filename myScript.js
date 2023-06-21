@@ -1,4 +1,4 @@
-let x = document.forms["myForm"]["fname"]["lname"]["birthday"]["phone"]["email"]["psw"].value;
+let x = document.forms["myForm"]["fname"].value;
   if (x == "") {
     alert("Name must be filled out");
     return false;
