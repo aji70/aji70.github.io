@@ -27,7 +27,7 @@ let a = document.forms["myForm"]["fname"].value;
 
   let f = document.forms["myForm"]["psw"].value;
   if (f == "") {
-    alert("email must be filled out");
+    alert("give password");
     return false;
   }
 }
