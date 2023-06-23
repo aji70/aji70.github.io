@@ -1,0 +1,186 @@
+
+.menu-item-list .overlay_content .button, .menu-item-list p {
+   
+}
+
+.menu-item-list {
+    margin-bottom: 15px;
+}
+.menu-item-list .overlay_content .button, .menu-item-list p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+        line-height: 18px;
+}
+span.small_font {
+    font-size: 16px;
+}
+
+ .icon-dinner.soupsicon:before {
+    content: "\e607";
+}
+.menu-item-list p span.price {
+    float: right;
+    text-align: right;
+ 
+}
+.head_title {
+  
+    clear: both;
+}
+
+.head_title {
+    clear: both;
+    margin-top: 35px;
+    overflow: hidden;
+}
+.head_title h3 {
+    color: #8bc342;
+    text-align:left;
+    font-size: 22px;
+}
+.menu-item-list p {
+    width: 80%;
+}
+p.sub_price {
+    width: 100%;
+        margin-bottom: 2px;
+}
+.bcg {
+    background-position: center center !important;
+}
+@media only screen and (max-width: 900px) {
+.menu-item-list h3 {
+    margin-top: 0;
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+.head_title {
+    margin-bottom: 28px;
+}
+.head_title h1 {
+    font-size: 26px;
+
+}
+.menu-item-list h3 {
+    font-size: 15px;
+
+}
+article p {
+    font-size: 12px;
+    width: 78%;
+
+  
+    text-align: left;
+   
+}
+.head_title {
+    margin-top: 0px;
+}
+.head_title h3 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.head_title {
+    margin-bottom: 20px;
+}
+.bcg {
+    
+    background-position: top center !important;
+}
+}
+table.table {
+    border: none;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  
+    border-top: none;
+}
+.table>thead>tr>th {
+   
+    border-bottom: none;
+}
+.beer {
+    text-align: right;
+    font-weight: 700;
+}
+th.beer {
+    font-weight: bold;
+    color: #000;
+}
+td {
+    padding-left: 0px !important;
+}
+.head_title h1 {
+    margin-top: 10px;
+    text-align:left;
+}
+p.sub_price {
+    width: 100%;
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #262626;
+    font-weight: 500 !important;
+}
+td {
+   
+    font-size: 15px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #262626;
+    font-weight: 500 !important;
+}
+#content {
+   
+    background: url(BG-2.jpg);
+}
+.background41 {
+    background-image: url(drinks_banner.jpeg);
+}
+.banner .slider-content {
+    top: 140px;
+}
+.banner-content {
+    margin-bottom: 45px;
+}
+h1.padding_20 {
+    margin-bottom: 20px;
+}
+th.beer {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+}
+section {
+    margin-bottom: 25px;
+}
+.wine_Space {
+    margin-bottom: 45px;
+}
+th.beer {
+    color: #8bc342;
+}
+body {
+    
+    font-size: 15px;
+
+}
+section.wine_sec .sub_price {
+    margin-bottom: 15px;
+}
+button.menu {
+ padding: 12px 20px;
+   
+    font-weight: bolder;
+   
+    border: 2px solid #000;
+}
+button.menu {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    display: block;
+    overflow: hidden;
+    background: #000;
+    color: #fff;
+    border-radius: 0;
+}

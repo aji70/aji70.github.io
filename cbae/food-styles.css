@@ -1,0 +1,70 @@
+.menu-item-list .overlay_content .button, .menu-item-list p {
+   
+}
+@media only screen and (max-width: 600px) {
+.menu-item-list h3 {
+    margin-top: 0;
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+.head_title {
+    margin-bottom: 28px;
+}
+.head_title h1 {
+    font-size: 30px;
+}
+.menu-item-list h3 {
+    font-size: 15px;
+
+}
+article p {
+    font-size: 12px;
+    width: 78%;
+    
+ 
+    text-align: justify;
+
+  
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+   
+}
+}
+.menu-item-list {
+    margin-bottom: 20px;
+}
+.menu-item-list .overlay_content .button, .menu-item-list p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 24px;
+}
+span.small_font {
+    font-size: 16px;
+}
+
+ .icon-dinner.soupsicon:before {
+    content: "\e607";
+}
+#content {
+   
+    background: url(BG-2.jpg);
+}
+button.menu {
+ padding: 12px 20px;
+   
+    font-weight: bolder;
+   
+    border: 2px solid #000;
+}
+button.menu {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    display: block;
+    overflow: hidden;
+    background: #000;
+    color: #fff;
+    border-radius: 0;
+}
