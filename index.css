@@ -1,0 +1,341 @@
+*{
+    text-decoration: none;
+}
+.container-fluid{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url(images/pawel-czerwinski-vI5XwPbGvmY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;   
+    position:relative;
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    position: relative;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    background-color:whitesmoke;
+}
+.navbar p{
+    margin-left: 20px;
+    font-family: Blippo, fantasy;
+    font-size: 19px;
+}
+
+#gitlin{
+    margin-top: -20px;
+    margin-left: 50px;
+    color: black;
+}
+#currentDayOfTheWeek{
+    margin-left: 800px;
+    font-weight: 100;
+}
+
+.navimg img {
+    margin-left: 10px;
+    padding-top: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 10%;
+}
+#slackUserName{
+    margin-top: 100px;
+    margin-left: 200px;
+    font-size: 40px;
+}
+
+#myTrack{
+    margin-top: -50px;
+    margin-left: 250px;
+    font-family: Blippo, fantasy;
+    font-size: 40px;
+    
+}
+
+.images{
+    position: relative;
+    margin-top: -300px;
+    margin-left: 800px;
+}
+#slackDisplayImage{
+    height: 450px;
+    width: 450px;
+}
+@media screen and (max-width:1200px) {
+
+    .navbar p{
+        margin-left: 20px;
+        font-family: Blippo, fantasy;
+        font-size: 18px;
+    }
+
+    #currentDayOfTheWeek{
+        margin-left: 550px;
+    }
+    
+    #slackUserName{
+        margin-top: 80px;
+        margin-left: 100px;
+        font-size: 40px;
+    }
+
+    #myTrack{
+        margin-top: -50px;
+        margin-left: 150px;
+        font-family: Blippo, fantasy;
+        font-size: 40px;
+        
+    }
+
+    .images{
+        position: relative;
+        margin-top: -300px;
+        margin-left: 500px;
+    }
+    #slackDisplayImage{
+        height: 450px;
+        width: 450px;
+    }
+    
+}
+
+@media screen and (max-width:1090px) {
+
+
+    #gitlin{
+        width: 150px;
+    }
+    .navbar p{
+        margin-left: 20px;
+        font-family: Blippo, fantasy;
+        font-size: 16px;
+    }
+
+    #currentDayOfTheWeek{
+        margin-top: 25px;
+        margin-left: 400px;
+    }
+    
+    #day{
+        margin-top: 25px;
+    }
+
+    #currentUTCTime{
+        margin-top: 25px;
+    }
+
+    #slackUserName{
+        margin-top: 80px;
+        margin-left: 100px;
+        font-size: 40px;
+    }
+
+    #myTrack{
+        margin-top: -50px;
+        margin-left: 150px;
+        font-family: Blippo, fantasy;
+        font-size: 40px;
+        
+    }
+
+    .images{
+        position: relative;
+        margin-top: -300px;
+        margin-left: 500px;
+    }
+    #slackDisplayImage{
+        height: 440px;
+        width: 440px;
+    }
+    
+}
+
+@media screen and (max-width:960px) {
+
+    .navbar p{
+        margin-left: 20px;
+        font-family: Blippo, fantasy;
+        font-size: 18px;
+    }
+
+    #currentDayOfTheWeek{
+        margin-left: 300px;
+    }
+    
+    #slackUserName{
+        margin-top: 80px;
+        margin-left: 100px;
+        font-size: 40px;
+    }
+
+    #myTrack{
+        margin-top: -50px;
+        margin-left: 150px;
+        font-family: Blippo, fantasy;
+        font-size: 40px;
+        
+    }
+
+    .images{
+        position: relative;
+        margin-top: -300px;
+        margin-left: 500px;
+    }
+    #slackDisplayImage{
+        height: 350px;
+        width: 350px;
+    }
+    
+}
+@media screen and (max-width:870px) {
+
+
+    #gitlin{
+        width: 120px;
+    }
+    .navbar p{
+        margin-left: 15px;
+        font-family: Blippo, fantasy;
+        font-size: 18px;
+    }
+
+    #currentDayOfTheWeek{
+        margin-left: 200px;
+    }
+    
+    #slackUserName{
+        margin-top: -30px;
+        margin-left: 100px;
+        font-size:25px;
+    }
+
+    #myTrack{
+        position: relative;
+        margin-top: 350px;
+        margin-left: 400px;
+        font-family: Blippo, fantasy;
+        font-size: 40px;
+        
+    }
+
+    .images{
+        position: relative;
+        margin-top: -430px;
+        margin-left: 200px;
+    }
+    #slackDisplayImage{
+        height: 320px;
+        width: 320px;
+    }
+    
+}
+@media screen and (max-width:760px) {
+
+    .navbar p{
+        margin-left: 20px;
+        font-family: Blippo, fantasy;
+        font-size: 13px;
+    }
+
+    #currentDayOfTheWeek{
+        margin-top: 25px;
+        margin-left: 100px;
+    }
+    #currentUTCTime{
+        margin-top: 25px;
+     
+    }
+    #day{
+        margin-top: 25px;
+     
+    }
+    
+    #slackUserName{
+        margin-top: -30px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    #myTrack{
+        margin-top: 350px;
+        margin-left: 350px;
+        font-family: Blippo, fantasy;
+        font-size: 40px;
+        
+    }
+
+    .images{
+        position: relative;
+        margin-top: -450px;
+        margin-left: 100px;
+    }
+    #slackDisplayImage{
+        height: 300px;
+        width: 300px;
+    }
+    
+}
+
+@media screen and (max-width:560px) {
+
+    #gitlin{
+        width: 100px;
+    }
+
+    .navbar p{
+        margin-left: 20px;
+        font-family: Blippo, fantasy;
+        font-size: 13px;
+    }
+
+    #currentDayOfTheWeek{
+        position: relative;
+        margin-top: 25px;
+        margin-left: 2px;
+        width: 80px;
+        height: 10px;
+    }
+    #currentUTCTime{
+        position: relative;
+        margin-top: 25px;
+        margin-left: 10px;
+     
+    }
+    #day{
+        position: relative;
+        margin-top: 25px;
+        margin-left: 10px;
+        
+     
+    }
+    
+    #slackUserName{
+        margin-top: -30px;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    #myTrack{
+        margin-top: 350px;
+        margin-left: 250px;
+        font-family: Blippo, fantasy;
+        font-size: 40px;
+        
+    }
+
+    .images{
+        position: relative;
+        margin-top: -450px;
+        margin-left: 100px;
+    }
+    #slackDisplayImage{
+        height: 300px;
+        width: 300px;
+    }
+    
+}
