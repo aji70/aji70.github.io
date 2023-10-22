@@ -229,7 +229,7 @@ nav{
 }   
   }
 
-  @media screen and (max-width: 330px) {
+  @media screen and (max-width: 380px) {
     @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
 
 *{
@@ -242,11 +242,12 @@ body{
     font-family: 'Press Start 2P', sans-serif;
     background-color: #222;
     color: white;
+    max-height: 667px;
 }
 
 nav{
     display: flex;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
     border-bottom: 4px solid whitesmoke;
 }
 
@@ -256,15 +257,15 @@ nav{
     margin-left: 5px;
     padding: auto;
     font-family: inherit;
-    font-size: 20px;
-    height: 60px;
-    width: 120px;
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
 }
 
 .gmn{
     position: absolute;
-    margin-left: 20%;
-    margin-top: 100px;
+    margin-left: 35%;
+    margin-top: 50px;
     font-family: inherit;
     font-size: 10px;
 }
@@ -273,7 +274,7 @@ nav{
     font-family: inherit;
     position: relative;
     margin-top: 20px;
-    margin-left: 25%;
+    margin-left: 15%;
     font-size: 10px;
 }
 .number{
@@ -304,7 +305,7 @@ nav{
 
 .che{
     margin-left: 33%;
-    margin-top: 50px;
+    margin-top: 20px;
 
 }
 
@@ -321,7 +322,7 @@ nav{
 
 .check {
     background-color: whitesmoke;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 30px;
     padding: auto;
     font-family: inherit;
@@ -332,7 +333,7 @@ nav{
 
 .gsh{
     margin-left: 30%;
-    margin-top: -170px;
+    margin-top: -190px;
 }
 
 .gsh p{
@@ -342,7 +343,7 @@ nav{
 
 .guess{
     margin-top: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     
 }   
   }
