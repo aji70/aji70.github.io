@@ -71,7 +71,18 @@ small{
     font-size: 1.1rem;
 }
 
-
+.edit{
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 100px;
+}
+.delete{
+    background-color: red;
+    color: white;
+    height: 30px;
+    width: 100px;
+}
 @media (max-width: 640px) {  
     .form_container{
         width: 100%;
